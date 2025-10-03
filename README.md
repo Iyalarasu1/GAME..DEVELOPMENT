@@ -45,8 +45,7 @@ void main()
 { 
 int gd,gm,x,y,z,o,x1,x2,y1,y2; 
 detectgraph(&gd,&gm); 
-initgraph(&gd, &gm,"c:\\turboc3\\bgi");
-
+initgraph(&gd,&gm," "); 
 setfillstyle(0,getmaxcolor()); 
 maxx=getmaxx(); 
 maxy=getmaxy(); 
@@ -81,32 +80,22 @@ axis();
 printf("After Rotation about X Axis"); 
 bar3d(midx+50,midy-x1,midx+60,midy-x2,5,1); 
 axis(); 
-printf("After Rotation about YAxis"); 
+printf("After Rotation about Y Axis"); 
 bar3d(midx+x1,midy-100,midx+x2,midy-90,5,1); 
 getch(); 
 closegraph(); 
 }
-
 ```
-
 ## Output :
 
-![alt text](3d1.jpg)
-
-![alt text](3d2.jpg)
-
-![alt text](3d3.jpg)
-
-![alt text](3d4.jpg)
-
-![alt text](3d5.jpg)
-
-![alt text](3d6.jpg)
-
-![alt text](3d7.jpg)
-
-![alt text](3d8.jpg)
+![image](https://github.com/user-attachments/assets/57d9227c-caeb-4466-ab3d-ece44cfbbab4)
+![image](https://github.com/user-attachments/assets/ba2f6f9f-f066-455e-9be8-b95f8c5c45b6)
+![image](https://github.com/user-attachments/assets/d7e79365-3db7-4825-ae18-96f358c77974)
+![image](https://github.com/user-attachments/assets/865b782d-7219-4c56-a946-185a235cf7f8)
+![image](https://github.com/user-attachments/assets/a1cc8f1d-a34d-42c2-a590-8fd1dd4b15b5)
+![image](https://github.com/user-attachments/assets/2f92a9e3-ef45-4104-9fdb-d8591744ece5)
+![image](https://github.com/user-attachments/assets/4c966cc3-37d6-441f-b984-14b3e9baabe8)
+![image](https://github.com/user-attachments/assets/b11907f3-6921-476b-94da-012dce747b74)
 
 ## Result :
-
- Thus the program was executed and the output was obtained successfully.
+Thus, the C program for performing three-dimensional transformations — including translation, scaling, and rotation about the X, Y, and Z axes — was successfully implemented and the output was verified through graphical representation.
